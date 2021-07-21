@@ -66,6 +66,52 @@
   "website": {
     "cmdDesc": "Link to Welcome-Bot's website"
   },
+  "balance": {
+    "cmdDesc": "Check your wcoin balance, or someone else's. Shows wallect & bank",
+    "title": "{{user}}'s balance",
+    "titleShort": "Balance",
+    "bal": ":dollar: Wallet: {{wallet}}\n:credit_card: Bank: {{bank}}/{{bankLimit}} ({{percentage}}% empty)"
+  },
+  "beg": {
+    "cmdDesc": "Get money by begging!",
+    "chances": {
+      "failed": "Oh poor beggar, don't you feel ashame :question:",
+      "success": "Woah... Seems you have a way with people :people_hugging:, you got {{wcoins}} from begging",
+      "little": "Somehow you managed to beg {{wcoins}} from a poor person :bearded_person:"
+    }
+  },
+  "daily": {
+    "cmdDesc": "Get your daily wcoins!",
+    "success": "{{wcoins}} wcoins were placed in your wallet!",
+    "dailyClaimed": "You have already claimed your daily money. Try again in {{duration}}"
+  },
+  "deposit": {
+    "cmdDesc": "Deposit money to your bank",
+    "notAvailable": "Woah... You don't have that much money in your wallet!",
+    "noSpace": "Woah... You don't have space to deposit that money!",
+    "title": "Money deposited",
+    "success": "Deposited {{wcoins}} wcoins"
+  },
+  "give": {
+    "cmdDesc": "Donate monry to another user",
+    "title": "Donated money!",
+    "success": "{{mention}} You gave {{user}} {{amount}}, now you have {{yourWallet}} and they've got {{userWallet}}",
+    "errorYourself": "Woah, can you donate yourself?"
+  },
+  "profile": {
+    "cmdDest": "Shows your profile or someone else's.",
+    "title": "Profile of {{tag}}"
+  },
+  "setbio": {
+    "cmdDesc": "Set your Welcome-Bot account's bio!",
+    "success": "Successfully set bio to **{{bio}}**"
+  },
+  "withdraw": {
+    "cmdDesc": "Withdraw money from your bank",
+    "notAvailable": "Woah... You don't have that much money in your bank!",
+    "title": "Money withdrawed",
+    "success": "Withdrawed {{wcoins}} wcoins"
+  },
   "8ball": {
     "cmdDesc": "Get your fortune by asking your question"
   },
@@ -128,8 +174,11 @@
   "user": {
     "cmdDesc": "Get information about a user. It will show your info if no user was mentioned"
   },
-  "test": {
+  "testwelcome": {
     "cmdDesc": "Test by sending welcome message"
+  },
+  "testgoodbye": {
+    "cmdDesc": "Test by sending goodbye message"
   },
   "version": {
     "cmdDesc": "Get information on a version or latest version"
